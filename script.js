@@ -20,7 +20,7 @@ for (let i = 0; i < 200; i++) {
 }
 
 function animate() {
-    // Clear canvas with fade effect
+    // Clears canvas with fade effect
     ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     
