@@ -30,7 +30,7 @@ function animate() {
         p.x += p.vx;
         p.y += p.vy;
         
-        // Wrap around screen
+        // Wrap around the screen
         if (p.x < 0) p.x = canvas.width;
         if (p.x > canvas.width) p.x = 0;
         if (p.y < 0) p.y = canvas.height;
