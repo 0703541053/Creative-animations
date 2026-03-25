@@ -13,7 +13,7 @@ class HappyBounce(Scene):
         )
         face = VGroup(ball, smile, eyes)
         
-        # Animate it
+        # Animate it....
         self.play(Create(face))
         self.play(face.animate.shift(UP*2), rate_func=there_and_back)
         self.play(face.animate.scale(1.2), rate_func=there_and_back)
